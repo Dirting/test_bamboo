@@ -3,7 +3,7 @@ version: 2
 plan:
   project-key: LTY
   key: PLAN
-  name: Legrand test yml
+  name: the Plan
 stages:
   - Build hull:
       - Build
