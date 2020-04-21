@@ -1,0 +1,14 @@
+---
+version: 2
+plan:
+  project-key: LTY
+  key: Legrand test yml
+  name: Legrand test yml
+stages:
+  - Build hull:
+      - Build
+
+Build:
+  tasks:
+    - script:
+        - echo 'Hello World!'
