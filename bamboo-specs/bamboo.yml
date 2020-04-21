@@ -3,12 +3,13 @@ plan:
   project-key: LTY
   key: PLAN
   name: My Plan
-
+  
 stages:
   - Build hull:
       - Build
 
-Job 1:
+
+Build:
   tasks:
     - script:
-        - echo 'Hello from YAML Specs'
+        - echo 'Hello World!'
