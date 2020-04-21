@@ -5,9 +5,8 @@ plan:
   name: My Plan
 
 stages:
-  - Stage 1:
-      jobs:
-        - Job 1
+  - Build hull:
+      - Build
 
 Job 1:
   tasks:
